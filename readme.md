@@ -1,20 +1,17 @@
-# Friend or Foe ?
+# Codewars JavaScript Solutions
 
-https://www.codewars.com/kata/55b42574ff091733d900002f
+Welcome to my repository of my [Codewars](https://www.codewars.com/) solutions.
+Each solution is written in JavaScript and is organized by the challenge name and their categories (kyu).
 
-Make a program that filters a list of strings and returns a list with only your friends name in it.
+## Structure
 
-If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...
+The solutions are organized in the following structure:
 
-### Example
-
-```javascript
-Input = {"Ryan", "Kieran", "Jason", "Yous"}
-Output = {"Ryan", "Yous"}
-
-Input = {"Peter", "Stephen", "Joe"}
-Output = {}
+```
+/*kyu
+	/<challenge-name>
+		- main.js
+		- README.md
 ```
 
-### Notes
-- Input strings will only contain letters. Note: keep the original order of the names in the output.
+Each challenge has its own folder containing the solution file and a README file with a description of the challenge.
